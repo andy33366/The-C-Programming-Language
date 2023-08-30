@@ -10,6 +10,7 @@ int main () {
 		if (c == ' ' || c == '\n' || c == '\t'){
 			printf("\n");
 		}
-		printf("_");
+		else
+			printf("_");
 	}
 }
