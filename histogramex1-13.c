@@ -11,6 +11,11 @@ int main () {
 			printf("\n");
 		}
 		else
+			/*
+			 * for vertical, will need to create array of words per line
+			 *
+			 * for i in word 
+			 * */
 			printf("_");
 	}
 }
