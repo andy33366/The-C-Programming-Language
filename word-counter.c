@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+
+/*
+ * TODO
+ *
+ * Make it print each word per line
+ *
+ * */
+
 #define IN 1 /*inside a word*/
 #define OUT 0 /*outside a word*/
 
@@ -27,5 +35,6 @@ int main () {
 			++nw;
 		}
 	}
-	printf("%d %d %d\n", nl, nw, nc);
+	printf("New line \t words \t characters");_
+	printf("%d %d %d\n", nl, '\t', nw, '\t', nc);
 }

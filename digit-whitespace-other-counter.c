@@ -8,8 +8,8 @@ int main() {
 	for (i = 0; i < 10; ++i)
 		ndigit[i] = 0;
 	while ((c = getchar()) != EOF)
-		if (c >= '0' && c <= '9')
 			//c-'0' is an arithmetic expression. the result is stored as a char, which is just an int, so it is a valid array subscript.
+		if (c >= '0' && c <= '9')
 			++ndigit[c-'0'];
 		else if (c == ' ' || c == '\n' || c == '\t')
 			++nwhite;
