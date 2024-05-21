@@ -12,3 +12,13 @@ int main () {
 	printf("fahrenheight\tcelsius\n");
 	printf("%6.1f\t\t %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 }
+
+
+/*
+ * TODO
+ *
+ * Make into function
+ *
+ */
+ 
+
